@@ -136,6 +136,40 @@ footer {
         max-width: 300px;
     }
 }
+/* Sombras sutis para botões */
+.banner-content .btn {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Efeito ao passar o mouse pelos botões */
+.banner-content .btn:hover {
+    background-color: #ff8578;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Aumenta a sombra no hover */
+    transform: translateY(-3px); /* Eleva levemente o botão */
+}
+
+/* Sombras para os itens do menu */
+.menu-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor dos itens */
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
+}
+
+/* Efeito ao passar o mouse pelos itens do menu */
+.menu-item:hover {
+    transform: translateY(-5px); /* Eleva levemente o item */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Aumenta a sombra no hover */
+}
 /*BOtão*/
 
 @keyframes rotate {
